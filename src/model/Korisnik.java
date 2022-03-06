@@ -9,6 +9,8 @@ import java.util.List;
  * The persistent class for the Korisnik database table.
  * 
  */
+// veza izmedju objekta klase Korisnik i objekta klase Lekar/Pacijent ostvarena je 
+// u fajlu Korisnici.txt na nacin kao sto je opisano u kontolerima pacijent i lekar
 @Entity
 @Table(name="Korisnik")
 @NamedQuery(name="Korisnik.findAll", query="SELECT k FROM Korisnik k")

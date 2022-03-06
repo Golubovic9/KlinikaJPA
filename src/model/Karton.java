@@ -8,6 +8,7 @@ import javax.persistence.*;
  * The persistent class for the Karton database table.
  * 
  */
+
 @Entity
 @Table(name="Karton")
 @NamedQuery(name="Karton.findAll", query="SELECT k FROM Karton k")
